@@ -4,7 +4,7 @@ from tensorflow import keras
 import streamlit as st
 
 # Load the saved model
-model = keras.models.load_model(r"C:\Users\sayas\Downloads\Project3\DL-iris\Scripts\iris_model.h5")
+model = keras.models.load_model("iris_model.h5")
 
 
 # Define class names
